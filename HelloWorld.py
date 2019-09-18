@@ -37,11 +37,21 @@ print(students)
 print(students["Laxmi"])
 print(len(students))
 
+#Dictionary Functions
+students.clear() # Empties all the values in he dict
+students.del() #Deelete the entire dictionary
+len(students)
+students.keys()
+students.values()
+
 #---------------------------------------------------
 
 #TUPLES
 #Cant be modified
+#Same as lists but cant be modified
 
+tup1=("Apple",67,"Ball")
+print(tup1)
 #---------------------------------------------------
 
 #Conditional Statements
@@ -142,3 +152,13 @@ class Person:
 p=Person("ABC","20")
 p.getname()
 p.getage()
+
+#---------------------------------------------------
+
+#Files
+
+testFile=open("FileName")
+testFile.read()
+testFile.tell() #Specifies cursor position
+testFile.seek() #Move the cursor at desired position by using offset
+testFile.close()';;//'
