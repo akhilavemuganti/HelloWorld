@@ -8,7 +8,7 @@ from time import sleep
 list=[]
 url = "https://www.ap7am.com/telugu-news"
 
-driver = webdriver.Chrome('/Users/akhilavemuganti/Downloads/chromedriver.exe')
+driver = webdriver.Chrome('C:/Users/akhila.vemuganti/Downloads/chromedriver_win32/chromedriver.exe')
 driver.maximize_window()
 driver.get(url)
 time.sleep(5)
