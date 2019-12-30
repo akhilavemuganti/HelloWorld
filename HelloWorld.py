@@ -38,11 +38,12 @@ print(students["Laxmi"])
 print(len(students))
 
 #Dictionary Functions
-students.clear() # Empties all the values in he dict
-students.del() #Deelete the entire dictionary
+
+#students.del() #Deelete the entire dictionary
 len(students)
-students.keys()
-students.values()
+print(students.keys())
+print(students.values())
+students.clear() # Empties all the values in he dict
 
 #---------------------------------------------------
 
